@@ -14,6 +14,7 @@
     "themesberg"
   ],
   "license": "MIT",
+  "homepage": "/",
   "bugs": {
     "url": "https://github.com/themesberg/volt-react-dashboard/issues"
   },
@@ -53,11 +54,8 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
-    "build-local": "PUBLIC_URL=./ react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
